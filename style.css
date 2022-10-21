@@ -11,8 +11,17 @@
     display:flex;
     justify-content: space-around;
     padding:1em;
+    position:relative;
 }
-
+.card--badge {
+    position: absolute;
+    top: 16px;
+    left: 20px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}
 img{
     max-width:200px;
 min-height:230px;
