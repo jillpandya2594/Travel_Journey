@@ -12,7 +12,8 @@ console.log(data)
      
     <Card 
          key={item.id}
-    imageUrl= {item.imageUrl}
+          item={item}
+    /*imageUrl= {item.imageUrl}
     location= {item.location}
         googleMapsUrl= {item.googleMapsUrl}
     title= {item.title}
@@ -20,7 +21,7 @@ console.log(data)
         startDate= {item.startDate}
         endDate= {item.endDate}
         description={item.description}
-travelled={item.travelled}
+travelled={item.travelled}*/
         />
  ) 
       })
