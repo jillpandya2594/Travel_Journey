@@ -12,7 +12,7 @@ console.log(data)
      
     <Card 
          key={item.id}
-             {...item}
+             {...item}/*Uses the spread operator ... to spread the all properties of the item object */
           /*item={item}*/
     /*imageUrl= {item.imageUrl}
     location= {item.location}
