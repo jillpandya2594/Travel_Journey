@@ -2,9 +2,16 @@ import React from "react"
 
 export default function Card(props){
     console.log(props)
+    let badgeText
+    if (props.travelled === 0) {
+        badgeText = "Not Explored Yet"
+    } else if (props.travelled === 1) {
+        badgeText = "Explored!"
+    }
     return (
         <div ClassName="container">
         <div className="card">
+         {badgeText && <div className="card--badge">{badgeText}</div>}
         <div className="imageContainer">
        <img src={props.imageUrl} className="image"/>
        </div>
