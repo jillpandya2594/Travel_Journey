@@ -20,6 +20,7 @@ console.log(data)
         startDate= {item.startDate}
         endDate= {item.endDate}
         description={item.description}
+travelled={item.travelled}
         />
  ) 
       })
