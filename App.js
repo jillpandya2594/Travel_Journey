@@ -11,6 +11,7 @@ console.log(data)
     // 
      
     <Card 
+         key={item.id}
     imageUrl= {item.imageUrl}
     location= {item.location}
         googleMapsUrl= {item.googleMapsUrl}
